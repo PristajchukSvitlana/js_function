@@ -241,7 +241,7 @@ helloUser('Pristajchuk')
 
 function getSum(x, y) {
     console.log(arguments)
-ar
+    ar
     sum = 0
     for (i = 0; i < arguments.length; i++) {
         sum += arguments[i]
@@ -250,4 +250,7 @@ ar
     console.log(sum);
 }
 getSum(10, 30, 95)
+
+
+
 
